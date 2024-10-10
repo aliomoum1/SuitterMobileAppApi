@@ -1,0 +1,7 @@
+{
+  "LoggerSettings": {
+    "AppName": "SuitterAppApi",
+    "WriteToFile": false,
+    "StructuredConsoleLogging": true
+  }
+}

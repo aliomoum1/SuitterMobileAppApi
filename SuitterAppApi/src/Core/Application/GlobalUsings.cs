@@ -1,0 +1,17 @@
+global using Ardalis.Specification;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.Localization;
+global using Microsoft.Extensions.Logging;
+global using SuitterAppApi.Application.Common.Events;
+global using SuitterAppApi.Application.Common.Exceptions;
+global using SuitterAppApi.Application.Common.FileStorage;
+global using SuitterAppApi.Application.Common.Interfaces;
+global using SuitterAppApi.Application.Common.Models;
+global using SuitterAppApi.Application.Common.Persistence;
+global using SuitterAppApi.Application.Common.Specification;
+global using SuitterAppApi.Application.Common.Validation;
+global using SuitterAppApi.Domain.Catalog;
+global using SuitterAppApi.Domain.Common;
+global using SuitterAppApi.Domain.Common.Contracts;
+global using SuitterAppApi.Shared.Notifications;

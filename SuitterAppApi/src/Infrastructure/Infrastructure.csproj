@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>SuitterAppApi.Infrastructure</RootNamespace>
+        <AssemblyName>SuitterAppApi.Infrastructure</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+      <Compile Remove="FileCreator\ApplicationTemplate\CompanyInformationByWhatsSec.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\CreateNameRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\CreateNameRequestValidator.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\DeleteNameRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\ExportNamesRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\GetNameRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\GetNameViaDapperRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NameByIdSpec.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NameDetailsDto.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NameDto.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NameExportDto.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NamesBySearchRequestSpec.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\NamesController.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\ProductByNameSpec.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\ProductsByBrandSpec.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\SearchNamesRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\UpdateNameRequest.cs" />
+      <Compile Remove="FileCreator\ApplicationTemplate\UpdateNameRequestValidator.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\CompanyInformationByWhatsSec.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\CreateNameRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\CreateNameRequestValidator.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\DeleteNameRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\ExportNamesRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\GetNameRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\GetNameViaDapperRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NameByIdSpec.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NameDetailsDto.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NameDto.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NameExportDto.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NamesBySearchRequestSpec.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\NamesController.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\ProductByNameSpec.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\ProductsByBrandSpec.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\SearchNamesRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\UpdateNameRequest.cs" />
+      <EmbeddedResource Include="FileCreator\ApplicationTemplate\UpdateNameRequestValidator.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="6.1.0" />
+        <PackageReference Include="AWS.Logger.SeriLog" Version="3.2.0" />
+        <PackageReference Include="ClosedXML" Version="0.100.3" />
+        <PackageReference Include="Dapper" Version="2.0.123" />
+        <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.10.0" />
+        <PackageReference Include="Finbuckle.MultiTenant.EntityFrameworkCore" Version="6.10.0" />
+        <PackageReference Include="Hangfire" Version="1.7.34" />
+        <PackageReference Include="Hangfire.Console" Version="1.4.2" />
+        <PackageReference Include="Hangfire.Console.Extensions" Version="1.0.5" />
+        <PackageReference Include="Hangfire.MySqlStorage" Version="2.0.3" />
+        <PackageReference Include="Hangfire.PostgreSql" Version="1.19.12" />
+        <PackageReference Include="Hangfire.SQLite" Version="1.4.2" />
+        <PackageReference Include="MailKit" Version="3.6.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="7.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="7.0.4" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="7.0.4" />
+        <PackageReference Include="Microsoft.Identity.Web" Version="2.7.0" />
+        <PackageReference Include="MimeKit" Version="3.6.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+        <PackageReference Include="NSwag.AspNetCore" Version="13.18.2" />
+        <PackageReference Include="RazorEngineCore" Version="2022.8.1" />
+        <PackageReference Include="RestSharp" Version="112.0.0" />
+        <PackageReference Include="ZymLabs.NSwag.FluentValidation.AspNetCore" Version="0.6.2" />
+        <PackageReference Include="Oracle.EntityFrameworkCore" Version="7.21.9" />
+        <PackageReference Include="OrchardCore.Localization.Core" Version="1.5.0" />
+        <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+        <PackageReference Include="Serilog.Enrichers.Process" Version="2.0.2" />
+        <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+        <PackageReference Include="Serilog.Expressions" Version="3.4.1" />
+        <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+        <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+        <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+        <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.3.0" />
+        <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.0" />
+        <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.2" />
+        <PackageReference Include="Figgle" Version="0.5.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Core\Application\Application.csproj" />
+        <ProjectReference Include="..\Core\Domain\Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="Catalog\*.json" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Update="Roslynator.Analyzers" Version="4.2.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+</Project>

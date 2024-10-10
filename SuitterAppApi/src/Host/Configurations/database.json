@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=localhost;Database=SuitterMobile;Trusted_Connection=True;Encrypt=False;"
+  }
+}

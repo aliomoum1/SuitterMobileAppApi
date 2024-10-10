@@ -1,0 +1,1 @@
+﻿global using SuitterAppApi.Domain.Common.Contracts;
